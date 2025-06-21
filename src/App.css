@@ -1,0 +1,248 @@
+/* 🔥 DEVIL THEME – DEVeloper wIth eviL design
+   Copyright © 2025 Jeeva V. All rights reserved.
+   Unauthorized copying, reproduction or distribution is strictly prohibited.
+*/
+.radial-gradient {
+  background: radial-gradient(
+    circle,
+    #c92c3c,
+    #a62b2d,
+    #6e2125,
+    #4b1b1e,
+    #2d1515
+  );
+}
+
+:root {
+  --devil-primary: #ff0055;
+  --devil-dark: #0f0f0f;
+  --devil-gray: #1e1e1e;
+  --devil-accent: #ff416c;
+  --glass-bg: rgba(0, 0, 0, 0.3);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-blur: 20px;
+  --shadow-devil: 0 4px 30px rgba(255, 0, 85, 0.3);
+  --shadow-devil-glow: 0 0 12px rgba(255, 0, 85, 0.6),
+    0 0 24px rgba(255, 0, 85, 0.4);
+  --text-light: #e0e0e0;
+  --text-muted: #888;
+  --radius-md: 12px;
+}
+
+body {
+  background: linear-gradient(135deg, #0f0f0f, #1e1e1e);
+  color: var(--text-light);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  animation: bgPulse 12s ease infinite;
+}
+
+@keyframes bgPulse {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.task-manager {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-devil);
+  padding: 2rem;
+  width: 100%;
+  max-width: 480px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.task-manager:hover {
+  box-shadow: var(--shadow-devil-glow);
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--devil-primary);
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.task-input {
+  padding: 0.8rem 1rem;
+  width: 100%;
+  max-width: 340px;
+  border: 1px solid var(--devil-gray);
+  border-radius: var(--radius-md);
+  background: #111;
+  color: var(--text-light);
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.task-input:focus {
+  border-color: var(--devil-primary);
+  box-shadow: 0 0 0 3px rgba(255, 0, 85, 0.2);
+}
+
+.add-task-button {
+  padding: 0.7rem 1.5rem;
+  background: linear-gradient(
+    135deg,
+    var(--devil-primary),
+    var(--devil-accent)
+  );
+  border: none;
+  border-radius: var(--radius-md);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.add-task-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px var(--devil-primary);
+}
+
+.task-count {
+  margin-top: 0.75rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.task-item {
+  background: #1a1a1a;
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  color: var(--text-light);
+}
+
+.task-item:hover {
+  background: #262626;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+  color: var(--text-muted);
+  background: #222;
+}
+
+.delete-task-button {
+  padding: 0.4rem 0.9rem;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  border: none;
+  border-radius: var(--radius-md);
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.delete-task-button:hover {
+  background: linear-gradient(135deg, #ff2c5f, #d70026);
+}
+
+.copyright-banner {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  letter-spacing: 0.5px;
+  opacity: 0.8;
+  animation: devilBlink 2s ease-in-out infinite;
+}
+
+@keyframes devilBlink {
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.copyright-banner span {
+  color: var(--devil-primary);
+  font-weight: bold;
+}
+
+.devil-banner-footer {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  text-align: center;
+  color: #ff0055;
+  font-weight: 500;
+  font-family: "Courier New", monospace;
+  text-shadow: 0 0 4px #ff005599, 0 0 8px #ff005544;
+  animation: flicker 3s infinite ease-in-out;
+  opacity: 0.9;
+}
+
+@keyframes flicker {
+  0%,
+  100% {
+    opacity: 0.95;
+    text-shadow: 0 0 4px #ff005599, 0 0 8px #ff005544;
+  }
+  50% {
+    opacity: 0.75;
+    text-shadow: 0 0 2px #ff005544, 0 0 6px #ff005522;
+  }
+}
+.task-count {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 6px rgba(255, 0, 85, 0.2), 0 0 10px rgba(255, 0, 85, 0.15);
+  animation: pulseText 2.5s ease-in-out infinite;
+  transition: all 0.3s ease;
+}
+
+@keyframes pulseText {
+  0%,
+  100% {
+    text-shadow: 0 0 6px rgba(255, 0, 85, 0.25), 0 0 12px rgba(255, 0, 85, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 8px rgba(255, 0, 85, 0.35), 0 0 16px rgba(255, 0, 85, 0.3);
+  }
+}
