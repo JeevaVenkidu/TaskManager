@@ -89,7 +89,7 @@ See [`LICENSE`](./LICENSE) for more information.
 
 - 🖤 GitHub: [@devil-dev](https://github.com/JeevaVenkidu)
 - 📧 Email: jeeva6316x@gmail.com
-- 🌐 Portfolio: [Coming Soon]
+- 🌐 Portfolio: [PORTFOLIO](https://jeevacodes.web.app/)
 
 > _"Code with darkness. Design with intent."_  
 > — DEVIL
