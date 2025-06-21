@@ -91,13 +91,14 @@ Click below to see the deployed version:
 
 ---
 
-### 📄 License
+### 📄 Licenses
 
-Licensed under the **MIT License**  
-Copyright (c) 2025  
-**Jeeva (DEVIL – DEVeloper wIth eviL design)**
+- 🧠 **Code**: Licensed under the [MIT License](./LICENSE)  
+- 🎨 **Design, visuals, and content**: Licensed under  
+  [Creative Commons BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)
 
-See [`LICENSE`](./LICENSE) for details.
+© 2025 Jeeva (DEVIL – DEVeloper wIth eviL design)
+
 
 ---
 
