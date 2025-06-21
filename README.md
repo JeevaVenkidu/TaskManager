@@ -1,3 +1,6 @@
+# TaskManager
+💀 A dark-themed, animated Task Manager built with React — designed by DEVIL (DEVeloper wIth eviL design). Add, track, and conquer your tasks with style.
+
 # 🧾 TaskManager
 **Designed by DEVIL — DEVeloper wIth eviL design**
 
