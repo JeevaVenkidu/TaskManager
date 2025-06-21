@@ -1,6 +1,35 @@
-Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
+Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)
 
-This content (images, text, branding) is licensed under:
+This content is licensed under the Creative Commons BY-NC-SA 3.0 License:
 https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+You are free to:
+
+✅ Share — copy and redistribute the material in any medium or format  
+✅ Adapt — remix, transform, and build upon the material  
+
+Under the following terms:
+
+1. 📌 Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
+   You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+2. 💰 NonCommercial — You may not use the material for commercial purposes.
+
+3. 🔁 ShareAlike — If you remix, transform, or build upon the material,  
+   you must distribute your contributions under the same license as the original.
+
+4. 🚫 No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+---
+
+This license applies to:
+
+- All written text
+- Visuals, illustrations, and UI graphics
+- Branding or slogans (e.g., "DEVIL – DEVeloper wIth eviL design")
+
+This license **does not** apply to the JavaScript, HTML, or CSS code — see `LICENSE` (MIT) for code license.
+
+---
 
 © 2025 Jeeva (DEVIL – DEVeloper wIth eviL design)
