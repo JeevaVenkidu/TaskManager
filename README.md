@@ -1,44 +1,44 @@
+
 # TaskManager
 💀 A dark-themed, animated Task Manager built with React — designed by DEVIL (DEVeloper wIth eviL design). Add, track, and conquer your tasks with style.
-
-# 🧾 TaskManager
 **Designed by DEVIL — DEVeloper wIth eviL design**
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 ![Built With: React](https://img.shields.io/badge/Built%20With-React-blue?logo=react)
 ![Made By: DEVIL](https://img.shields.io/badge/Made%20By-DEVIL-black)
+[![Live Demo](https://img.shields.io/badge/View-Live--Demo-green?logo=github)](https://jeevavenkidu.github.io/TaskManager/)
 
 ---
 
 ### 📌 Overview
 
-**TaskManager** is a minimal and beautifully designed dark-mode task tracker built with **React**.  
-Designed for speed and style by **DEVIL (DEVeloper wIth eviL design)**, it helps you:
+**TaskManager** is a minimal, sleek, dark-themed task tracker built with **React** and **Vite**.  
+Crafted by **DEVIL (DEVeloper wIth eviL design)**, it helps you:
 
-- ➕ Add new tasks
-- ✔️ Track task completion
-- ❌ Remove tasks
+- ➕ Add tasks with ease
+- ✔️ Mark tasks as completed
+- ❌ Delete tasks cleanly
 - 🔢 View only active (incomplete) task count
 
-Perfect for devs who want a slick, focused task experience with a dark edge.
+> _Perfect for developers who want a clean and powerful task tool with a dark aesthetic._
 
 ---
 
 ### 🚀 Features
 
-- 🧠 Smart task handling using `useState`
-- 🌑 Full dark mode UI
-- 💬 Real-time task count (incomplete only)
-- ⚡ Fast, responsive, and lightweight
-- 🧼 Clean and animated UI (ready for Framer Motion upgrades)
+- ⚛️ React with functional components + `useState`
+- 🌑 Fully dark mode UI
+- 📊 Real-time task counter (only incomplete)
+- 🧼 Clean, animated design (Framer Motion ready)
+- ⚡ Blazing-fast performance via Vite
 
 ---
 
 ### 🛠️ Tech Stack
 
-- **React**
-- **JavaScript (ES6+)**
-- **HTML + CSS**
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- HTML5, CSS3, JavaScript (ES6+)
 
 ---
 
@@ -48,11 +48,15 @@ Perfect for devs who want a slick, focused task experience with a dark edge.
 TaskManager/
 ├── public/
 ├── src/
-│   ├── components/
-│   │   └── TaskManager.jsx
-│   ├── App.js
-│   ├── index.js
-│   └── app.css
+│   ├── assets/
+│   ├── core-concepts/Task Manager/
+│   │   └── task-manager.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+├── .gitignore
 ├── LICENSE
 └── README.md
 ```
@@ -65,34 +69,43 @@ TaskManager/
 # 1. Clone the repository
 git clone https://github.com/JeevaVenkidu/TaskManager.git
 
-# 2. Navigate into the project folder
+# 2. Navigate into the project directory
 cd TaskManager
 
 # 3. Install dependencies
 npm install
 
 # 4. Start the development server
-npm start
+npm run dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Then open [http://localhost:3000](http://localhost:3000) to view the app.
+
+---
+
+### 🌐 Live Preview
+
+Click below to see the deployed version:
+
+👉 **[Live Site](https://jeevavenkidu.github.io/TaskManager/)**
 
 ---
 
 ### 📄 License
 
-This project is licensed under the **MIT License**  
-Copyright (c) 2025 **Jeeva (DEVIL – DEVeloper wIth eviL design)**
+Licensed under the **MIT License**  
+Copyright (c) 2025  
+**Jeeva (DEVIL – DEVeloper wIth eviL design)**
 
-See [`LICENSE`](./LICENSE) for more information.
+See [`LICENSE`](./LICENSE) for details.
 
 ---
 
 ### 🤘 Connect with the DEVIL
 
-- 🖤 GitHub: [@devil-dev](https://github.com/JeevaVenkidu)
+- 🖤 GitHub: [@JeevaVenkidu](https://github.com/JeevaVenkidu)
 - 📧 Email: jeeva6316x@gmail.com
 - 🌐 Portfolio: [jeevacodes](https://jeevacodes.web.app/)
 
 > _"Code with darkness. Design with intent."_  
-> — DEVIL
+> — **DEVIL**
